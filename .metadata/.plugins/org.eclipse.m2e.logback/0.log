@@ -2783,3 +2783,616 @@
 2025-06-27 17:17:37,356 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-06-27 17:17:37,357 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-06-27 17:17:37,358 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\SpringBootYse\src\test\resources
+2025-06-30 12:57:56,102 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-06-30 13:32:50,271 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-30 13:53:23,653 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: kr.or:ddit:0.0.1-SNAPSHOT @ D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\pom.xml.
+2025-06-30 13:53:24,128 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /FirstSpringBoot/src/main/java
+2025-06-30 13:53:24,129 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /FirstSpringBoot/src/main/resources
+2025-06-30 13:53:24,130 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /FirstSpringBoot/src/main/resources
+2025-06-30 13:53:24,131 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /FirstSpringBoot/src/test/java
+2025-06-30 13:53:24,132 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /FirstSpringBoot/src/test/resources
+2025-06-30 13:53:24,255 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2025-06-30 13:53:24,256 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-06-30 13:53:24,397 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: kr.or:ddit:0.0.1-SNAPSHOT @ D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\pom.xml.
+2025-06-30 13:53:24,599 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /FirstSpringBoot/src/main/java
+2025-06-30 13:53:24,599 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /FirstSpringBoot/src/main/resources
+2025-06-30 13:53:24,599 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /FirstSpringBoot/src/main/resources
+2025-06-30 13:53:24,599 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /FirstSpringBoot/src/test/java
+2025-06-30 13:53:24,600 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /FirstSpringBoot/src/test/resources
+2025-06-30 13:53:24,775 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-06-30 13:53:25,209 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 13:53:25,218 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 13:53:25,219 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 13:53:25,885 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 13:53:25,900 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 13:53:25,906 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\SpringBootYse\src\test\resources
+2025-06-30 13:54:32,556 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 13:54:32,556 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 13:54:32,557 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 13:54:33,598 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 13:54:33,598 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 13:54:33,600 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 13:54:34,621 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 13:54:34,621 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 13:54:34,622 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 13:55:01,709 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 13:55:01,715 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 13:55:01,718 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 13:55:07,642 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 13:55:07,645 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 13:55:07,646 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 13:55:36,831 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 13:55:36,835 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 13:55:36,837 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 13:56:20,338 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 13:56:20,341 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 13:56:20,342 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 13:56:24,396 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 13:56:24,404 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 13:56:24,405 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 13:56:25,438 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 13:56:25,441 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 13:56:25,442 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 13:57:25,361 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 13:57:25,362 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 13:57:25,363 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 13:57:36,489 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 13:57:36,490 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 13:57:36,491 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 13:58:06,509 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 13:58:06,512 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 13:58:06,513 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 13:58:25,697 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 13:58:25,704 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 13:58:25,708 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 13:59:16,197 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 13:59:16,200 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 13:59:16,201 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 13:59:57,944 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 13:59:57,950 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 13:59:57,951 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:00:18,150 [Worker-24: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: kr.or:ddit:0.0.1-SNAPSHOT @ D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\pom.xml.
+2025-06-30 14:00:18,437 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:00:18,437 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:00:18,442 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:00:19,580 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:00:19,590 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:00:19,592 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:00:20,730 [Worker-29: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: kr.or:ddit:0.0.1-SNAPSHOT @ D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\pom.xml.
+2025-06-30 14:00:20,967 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:00:20,968 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:00:20,971 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:00:22,064 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:00:22,071 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:00:22,072 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:00:26,884 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:00:26,887 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:00:26,888 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:00:41,173 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:00:41,173 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:00:41,175 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:00:47,167 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:00:47,167 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:00:47,169 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:01:52,478 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:01:52,479 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-06-30 14:01:52,481 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:02:17,945 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:02:17,945 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:02:17,946 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:02:36,403 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:02:36,404 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:02:36,405 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:02:45,773 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:02:45,773 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:02:45,774 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:03:24,960 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:03:24,960 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:03:24,962 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:03:41,015 [Worker-29: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: kr.or:ddit:0.0.1-SNAPSHOT @ D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\pom.xml.
+2025-06-30 14:03:41,250 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:03:41,251 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:03:41,253 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:03:46,020 [Worker-24: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: kr.or:ddit:0.0.1-SNAPSHOT @ D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\pom.xml.
+2025-06-30 14:03:46,224 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:03:46,224 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:03:46,227 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:03:47,330 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:03:47,338 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-06-30 14:03:47,341 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:04:16,271 [Worker-27: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: kr.or:ddit:0.0.1-SNAPSHOT @ D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\pom.xml.
+2025-06-30 14:04:16,512 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:04:16,512 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:04:16,515 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:04:17,605 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:04:17,611 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-06-30 14:04:17,613 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:04:49,148 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:04:49,152 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:04:49,153 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:04:53,767 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:04:53,770 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:04:53,771 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:05:02,340 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:05:02,343 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:05:02,344 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:05:54,296 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:05:54,296 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:05:54,298 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:11:38,977 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:11:38,977 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:11:38,979 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:14:09,399 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:14:09,403 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:14:09,405 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:14:30,701 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:14:30,710 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:14:30,711 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:14:40,441 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:14:40,444 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:14:40,445 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:14:48,325 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:14:48,328 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:14:48,329 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:15:04,758 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:15:04,761 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:15:04,762 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:15:16,016 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:15:16,018 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:15:16,020 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:15:17,589 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:15:17,593 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:15:17,594 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:15:20,784 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:15:20,788 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:15:20,790 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:15:28,353 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:15:28,357 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:15:28,358 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:15:40,070 [Worker-31: Launching FirstSpringBoot - FirstSpringBootApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:15:40,071 [Worker-31: Launching FirstSpringBoot - FirstSpringBootApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:15:40,072 [Worker-31: Launching FirstSpringBoot - FirstSpringBootApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:23:04,176 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:23:04,179 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:23:04,181 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:23:23,869 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:23:23,872 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:23:23,874 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:23:55,749 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:23:55,752 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:23:55,754 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:23:59,357 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:23:59,360 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:23:59,361 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:24:09,681 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:24:09,684 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:24:09,686 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:24:11,968 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:24:11,971 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:24:11,973 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:24:15,232 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:24:15,237 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:24:15,239 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:24:17,844 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:24:17,847 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:24:17,848 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:24:24,239 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:24:24,242 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:24:24,243 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:24:28,893 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:24:28,895 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:24:28,896 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:24:37,044 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:24:37,046 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:24:37,047 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:24:44,499 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:24:44,502 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:24:44,503 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:24:46,537 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:24:46,539 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:24:46,541 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:24:50,695 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:24:50,699 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:24:50,700 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:25:30,282 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:25:30,285 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:25:30,287 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:25:42,150 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:25:42,153 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:25:42,154 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:26:08,427 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:26:08,429 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:26:08,430 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:26:18,002 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:26:18,005 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:26:18,005 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:26:27,742 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:26:27,745 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:26:27,746 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:26:33,865 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:26:33,869 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:26:33,870 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:27:00,568 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:27:00,573 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:27:00,575 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:27:45,778 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:27:45,781 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:27:45,783 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:27:46,808 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:27:46,811 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:27:46,812 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:27:54,327 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:27:54,330 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:27:54,332 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:28:01,764 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:28:01,767 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:28:01,768 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:28:05,174 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:28:05,178 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:28:05,179 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:28:11,148 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:28:11,151 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:28:11,152 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:28:20,554 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:28:20,558 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:28:20,559 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:28:31,633 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:28:31,635 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:28:31,636 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:28:39,750 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:28:39,753 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:28:39,754 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:29:03,776 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:29:03,789 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:29:03,790 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:29:36,118 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:29:36,121 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:29:36,122 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:29:45,402 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:29:45,405 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:29:45,407 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:30:01,101 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:30:01,105 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:30:01,106 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:30:06,060 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:30:06,063 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:30:06,064 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:30:13,421 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:30:13,424 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:30:13,425 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:30:44,789 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:30:44,791 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:30:44,793 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:30:59,429 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:30:59,431 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:30:59,432 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:31:11,375 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:31:11,378 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:31:11,379 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:31:16,392 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:31:16,395 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:31:16,396 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:31:19,647 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:31:19,651 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:31:19,652 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:31:29,069 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:31:29,078 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:31:29,079 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:31:51,569 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:31:51,572 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:31:51,573 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:31:59,750 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 14:31:59,753 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2025-06-30 14:31:59,754 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:33:33,903 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:33:33,904 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:33:33,905 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:33:38,652 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:33:38,652 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:33:38,653 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:34:06,083 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:34:06,083 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:34:06,085 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:34:15,760 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:34:15,760 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:34:15,761 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:34:22,063 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:34:22,064 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:34:22,065 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:34:23,110 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:34:23,110 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:34:23,111 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:34:30,000 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:34:30,000 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:34:30,001 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:35:02,936 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:35:02,936 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:35:02,937 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:35:08,484 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:35:08,484 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:35:08,485 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:35:15,823 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:35:15,824 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:35:15,824 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:35:18,063 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:35:18,063 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:35:18,064 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:35:28,923 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:35:28,923 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:35:28,924 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:35:37,467 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:35:37,467 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:35:37,468 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:36:24,711 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:36:24,712 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:36:24,712 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:36:38,103 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:36:38,103 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:36:38,104 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:36:39,527 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:36:39,527 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:36:39,528 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:36:49,698 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:36:49,698 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:36:49,699 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:36:55,467 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:36:55,468 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:36:55,469 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:37:03,096 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:37:03,096 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:37:03,098 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:37:04,253 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:37:04,253 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:37:04,254 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:37:50,957 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:37:50,957 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:37:50,958 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:49:07,675 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:49:07,676 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:49:07,677 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:49:22,234 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:49:22,235 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:49:22,236 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:51:05,699 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:51:05,700 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:51:05,701 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:51:08,142 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:51:08,142 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:51:08,143 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:51:17,865 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:51:17,866 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:51:17,867 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:51:18,877 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:51:18,878 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:51:18,879 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:51:25,930 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:51:25,930 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:51:25,931 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:51:27,308 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:51:27,308 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:51:27,309 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:51:43,717 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:51:43,717 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:51:43,718 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:51:54,863 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:51:54,864 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:51:54,864 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:52:17,097 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:52:17,098 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:52:17,098 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:52:30,719 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:52:30,719 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:52:30,721 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:53:35,026 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:53:35,026 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:53:35,027 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:53:43,672 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:53:43,673 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:53:43,674 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:53:46,998 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:53:46,999 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:53:47,000 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:54:27,544 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:54:27,544 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:54:27,545 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:54:36,989 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:54:36,989 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:54:36,990 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:54:38,008 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:54:38,008 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:54:38,009 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:54:48,817 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:54:48,817 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:54:48,818 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:54:57,519 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:54:57,519 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:54:57,520 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:55:01,712 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:55:01,712 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:55:01,713 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 14:58:36,714 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 14:58:36,720 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 383 resources from src\main\resources to target\classes
+2025-06-30 14:58:36,812 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:00:15,711 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:00:15,721 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:00:15,722 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:01:42,670 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:01:42,679 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:01:42,680 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:02:22,332 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:02:22,342 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:02:22,343 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:02:23,670 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:02:23,680 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:02:23,681 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:02:30,824 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:02:30,834 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:02:30,834 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:04:12,581 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:04:12,590 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:04:12,592 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:04:16,230 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:04:16,239 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:04:16,240 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:04:37,332 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:04:37,343 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:04:37,344 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:04:40,812 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:04:40,822 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:04:40,823 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:06:17,436 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:06:17,446 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:06:17,447 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:06:27,774 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:06:27,783 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:06:27,784 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:06:34,848 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:06:34,857 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:06:34,858 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:07:03,782 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:07:03,791 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:07:03,792 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:07:06,588 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:07:06,598 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:07:06,599 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:07:25,084 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:07:25,094 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:07:25,095 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:07:42,841 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:07:42,850 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:07:42,851 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:07:45,434 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:07:45,443 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:07:45,444 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:07:47,958 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:07:47,967 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:07:47,967 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:07:49,770 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:07:49,780 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:07:49,781 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:07:56,214 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:07:56,223 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:07:56,224 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:07:59,453 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:07:59,462 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:07:59,463 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:08:26,845 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:08:26,854 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:08:26,855 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:08:35,359 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:08:35,368 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:08:35,369 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:08:41,279 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:08:41,290 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:08:41,291 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:08:48,435 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:08:48,446 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:08:48,447 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:09:05,979 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:09:05,989 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:09:05,990 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:09:38,026 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:09:38,035 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:09:38,036 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:09:57,856 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:09:57,864 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:09:57,866 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:09:59,846 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:09:59,856 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:09:59,857 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:10:10,185 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:10:10,194 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:10:10,194 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:10:12,339 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:10:12,348 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:10:12,348 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:10:17,151 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:10:17,162 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:10:17,163 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:10:35,189 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:10:35,198 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:10:35,199 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:11:08,353 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:11:08,363 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:11:08,363 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:11:21,132 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:11:21,141 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:11:21,141 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:11:29,768 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:11:29,777 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:11:29,778 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:11:38,256 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:11:38,264 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:11:38,265 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:11:51,875 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:11:51,884 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:11:51,886 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:11:53,831 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:11:53,840 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:11:53,841 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:11:58,346 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:11:58,356 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:11:58,356 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:12:07,558 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:12:07,568 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:12:07,569 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:12:13,321 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:12:13,331 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:12:13,332 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:12:44,741 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:12:44,749 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:12:44,750 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:12:49,170 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:12:49,180 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:12:49,181 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:13:05,223 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:13:05,232 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:13:05,233 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:13:12,948 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:13:12,957 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:13:12,958 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:13:20,370 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:13:20,378 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-30 15:13:20,379 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:13:35,802 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 15:13:35,816 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 387 resources from src\main\resources to target\classes
+2025-06-30 15:13:35,833 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:13:41,730 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 15:13:41,740 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 387 resources from src\main\resources to target\classes
+2025-06-30 15:13:41,757 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:14:00,292 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 15:14:00,300 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 387 resources from src\main\resources to target\classes
+2025-06-30 15:14:00,317 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:14:10,182 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 15:14:10,189 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 387 resources from src\main\resources to target\classes
+2025-06-30 15:14:10,206 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:14:28,167 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 15:14:28,175 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 387 resources from src\main\resources to target\classes
+2025-06-30 15:14:28,191 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:14:35,903 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 15:14:35,910 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 387 resources from src\main\resources to target\classes
+2025-06-30 15:14:35,928 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:14:42,640 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 15:14:42,656 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 387 resources from src\main\resources to target\classes
+2025-06-30 15:14:42,675 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:14:54,738 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 15:14:54,745 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 387 resources from src\main\resources to target\classes
+2025-06-30 15:14:54,763 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:15:22,952 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 15:15:22,960 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 387 resources from src\main\resources to target\classes
+2025-06-30 15:15:22,977 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:16:09,698 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 15:16:09,707 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 387 resources from src\main\resources to target\classes
+2025-06-30 15:16:09,724 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:16:13,467 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 15:16:13,474 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 387 resources from src\main\resources to target\classes
+2025-06-30 15:16:13,491 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:16:46,195 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 15:16:46,205 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 387 resources from src\main\resources to target\classes
+2025-06-30 15:16:46,221 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:16:53,954 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 15:16:53,963 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 387 resources from src\main\resources to target\classes
+2025-06-30 15:16:53,980 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
+2025-06-30 15:17:10,821 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-06-30 15:17:10,829 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 387 resources from src\main\resources to target\classes
+2025-06-30 15:17:10,846 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources
