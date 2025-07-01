@@ -4,6 +4,8 @@
 <link href="${pageContext.request.contextPath }/resources/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="${pageContext.request.contextPath }/resources/css/headers.css">
 <title>자유게시판 등록/수정</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath }/resources/ckeditor/ckeditor.js"></script>
 </head>
 <style>
 .bi {
@@ -43,24 +45,28 @@
 			<div class="col-md-12">
 				<div class="">
 					<div class="card-body">
-						<form method="post" action="" id="" class="form-horizontal">
+						<form method="post" action="/free/insert.do" id="freeForm" class="form-horizontal">
 							<div class="form-group row">
 								<label class="col-sm-2 control-label" >제목</label>
 								<div class="col-sm-10">
-									<input name="boTitle" type="text" class="form-control" value="" placeholder="제목을 입력해주세요.">
+									<input name="freeTitle" type="text" class="form-control" value="" placeholder="제목을 입력해주세요.">
 								</div>
+								<!-- 유효성검사 시 빨간글자로 표시해줄 영역 -->
+								<font color="red" style="font-size:12px;">${errors.freeTitle }</font>
 							</div>
 							<div class="form-group row mt-4">
 								<label class="col-sm-2 control-label" >내용</label>
 								<div class="col-sm-10">
-									<textarea name="boContent" cols="50" rows="5" class="form-control" placeholder="content"></textarea>
+									<textarea name="freeContent" cols="50" rows="5" class="form-control" placeholder="content"></textarea>
 								</div>
+								<!-- 유효성검사 시 빨간글자로 표시해줄 영역 -->
+								<font color="red" style="font-size:12px;">${errors.freeContent }</font>
 							</div>
 							<div class="form-group row mt-4">
 								<div class="col-sm-offset-2 col-sm-12 ">
-									<input type="button" value="등록" class="btn btn-primary float-right" id="">
-									<input type="button" value="취소" class="btn btn-danger float-right" id="">
-									<input type="button" value="목록" class="btn btn-success float-right" id="">
+									<input type="button" value="등록" class="btn btn-primary float-right" id="insertBtn">
+									<input type="button" value="취소" class="btn btn-danger float-right" id="cancelBtn">
+									<input type="button" value="목록" class="btn btn-success float-right" id="listBtn">
 								</div>
 							</div>
 						</form>
@@ -72,4 +78,53 @@
 	</div>
 </main>
 </body>
+<script type="text/javascript">
+$(function() {
+	
+	CKEDITOR.replace("freeContent");
+	
+	let insertBtn = $("#insertBtn");	// 등록버튼
+	let cancelBtn = $("#cancelBtn");	// 취소버튼
+	let listBtn = $("#listBtn");		// 목록버튼
+	let freeForm = $("#freeForm");		// 작성form
+	
+	insertBtn.on("click", function(){
+		
+		let title = $("#freeTitle").val();		// 제목값
+		
+		let content = CKEDITOR.instances.freeContent.getData();	// 내용값
+// 		alert("등록은 되나?")
+
+		// 제목이 입력되지 않았거나 공백이면
+// 		if(title == null || title == "") {
+// 			alert("제목을 입력해주세요!");
+// 			return false;
+// 		}
+		
+		// 내용이 입력되지 않았거나 공백이면
+// 		if(content == null || content == "") {
+// 			alert("내용을 입력해주세요!");
+// 			return false;
+// 		}
+// 		alert("체킁");
+		freeForm.submit();
+	});
+	
+	// 취소 버튼 클릭했을 때 이벤트
+	cancelBtn.on("click", function(){
+		location.href = "/free/list.do";
+// 		alert("취소버튼");
+	});
+	
+	
+	// 목록 버튼 클릭했을 때 이벤트
+	listBtn.on("click", function(){
+// 		alert("목록버튼");
+		location.href = "/free/list.do";
+		
+	});
+	
+});
+	
+</script>
 </html>

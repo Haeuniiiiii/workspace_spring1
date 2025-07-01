@@ -4,6 +4,7 @@
 <link href="${pageContext.request.contextPath }/resources/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="${pageContext.request.contextPath }/resources/css/headers.css">
 <title>자유게시판 등록/수정</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <style>
 .bi {
@@ -43,18 +44,22 @@
 			<div class="col-md-12">
 				<div class="">
 					<div class="card-header">
-						<h3 class="card-title"></h3>
-						<div class="card-tools mt-1"></div>
+						<h3 class="card-title">${free.freeTitle }</h3>
+						<div class="card-tools mt-1">
+							${free.freeWriter } ${free.freeDate } ${free.freeHit }
+						</div>
 					</div>
 					<div class="card-body">
 						<div class="form-group row mt-1">
-							<div class="col-sm-12"></div>
+							<div class="col-sm-12">
+								${free.freeContent }
+							</div>
 						</div>
 					</div>
 					<div class="card-footer">
-						<button type="button" class="btn btn-primary" id="">목록</button>
-						<button type="button" class="btn btn-info" id="">수정</button>
-						<button type="button" class="btn btn-danger" id="">삭제</button>
+						<button type="button" class="btn btn-primary" id="listBtn">목록</button>
+						<button type="button" class="btn btn-info" id="udtBtn">수정</button>
+						<button type="button" class="btn btn-danger" id="delBtn">삭제</button>
 					</div>
 				</div>
 			</div>
@@ -63,25 +68,36 @@
 	</div>
 </main>
 </body>
+<script type="text/javascript">
+$(function(){
+	let listBtn = $("#listBtn");	// 목록 버튼
+	let udtBtn = $("#udtBtn");		// 수정 버튼
+	let delBtn = $("#delBtn");		// 삭제 버튼
+	
+	// 목록 버튼 이벤트
+	listBtn.on("click", function(){
+// 		alert("목록버튼 체킁");
+		location.href = "/free/list.do";	
+	});
+	
+	
+	// 수정 버튼 이벤트
+	udtBtn.on("click", function(){
+// 		alert("수정버튼 체킁");
+		
+	});
+	
+	
+	// 삭제 버튼 이벤트
+	delBtn.on("click", function(){
+// 		alert("삭제버튼 체킁");
+		
+	});
+	
+	
+	
+});
+
+
+</script>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

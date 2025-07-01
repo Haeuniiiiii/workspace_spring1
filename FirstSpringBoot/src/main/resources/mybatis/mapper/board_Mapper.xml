@@ -5,6 +5,18 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 
 <mapper namespace="kr.or.ddit.board.mapper.IBoardMapper">
 
+	<!-- 게시판 게시글 검색을 위한 동적 쿼리 -->
+	<sql id="boardSearch">
+		<if test="searchWord != null and searchType == 'title'">
+			and (bo_title like '%' ||#{searchWord}||'%')
+		</if>
+		<if test="searchWord != null and searchType == 'writer'">
+			and (bo_writer like '%' ||#{searchWord}||'%')
+		</if>
+	</sql>
+
+
+	<!-- 게시판 게시글 등록 -->
 	<insert id="insertBoard" parameterType="boardVO" useGeneratedKeys="true">
 		
 			<selectKey keyProperty="boNo" resultType="int" order="BEFORE">
@@ -27,6 +39,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 			
 	</insert>
 	
+	<!-- 게시판 게시글 조회수 증가 -->
 	<update id="incrementHit" parameterType="int">
 		
 		update board
@@ -37,7 +50,9 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	</update>
 	
 	
+	<!-- 게시판 게시글 선택 상세보기 -->
 	<select id="selectBoard" parameterType="int" resultType="boardVO">
+	
 		select
 			bo_no
 			, bo_title
@@ -47,6 +62,67 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 			, bo_hit
 		from board
 		where bo_no = #{boNo}
+		
 	</select>
+	
+	
+	<!-- 게시판 전체 게시글 수 -->
+	<select id="selectBoardCount" parameterType="paginationInfoVO" resultType="int">
+	
+		select count(bo_no)
+		from board
+		where 1=1
+		<include refid="boardSearch" />
+		
+	</select>
+	
+	
+	<!-- 게시판 전체 목록 -->
+	<select id="selectBoardList" parameterType="paginationInfoVO" resultType="boardVO">
+	
+		select b.*
+		from (
+		    select a.*
+		        , row_number() over(order by a.bo_no desc) rnum 
+		    from(
+		        select
+		                bo_no
+		                , bo_title
+		                , bo_content
+		                , bo_writer
+		                , bo_date
+		                , bo_hit
+		            from board
+		            where 1=1
+					<include refid="boardSearch" />
+		            order by bo_no desc 
+		        ) a
+		    ) b  
+		    <![CDATA[
+				where b.rnum >= #{startRow} and b.rnum <= #{endRow}
+		    ]]>
+	
+	</select>
+	
+	
+	<!-- 게시판 게시글 수정 -->
+	<update id="updateBoard" parameterType="boardVO">
+	
+		update board
+		set
+             bo_title = #{boTitle}
+             , bo_content = #{boContent}
+             , bo_date = sysdate
+        where bo_no = #{boNo}
+
+	</update>
+	
+	<!-- 게시판 게시글 삭제 -->
+	<delete id="deleteBoard" parameterType="int">
+	
+		delete from board
+		where bo_no = #{boNo }
+		
+	</delete>
 	
 </mapper>

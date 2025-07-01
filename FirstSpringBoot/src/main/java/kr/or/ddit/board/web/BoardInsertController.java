@@ -65,6 +65,5 @@ public class BoardInsertController {
 		}
 		
 		return goPage;
-		
 	}
 }

@@ -1,4 +1,5 @@
 <%@ page contentType="text/html; charset=utf-8"%>
+<%@ taglib uri="jakarta.tags.core" prefix="c"%>
 <html>
 <head>
 <link href="${pageContext.request.contextPath }/resources/css/bootstrap.min.css" rel="stylesheet">
@@ -14,6 +15,10 @@
 }
 </style>
 <body>
+<c:set value="등록" var="btnText"/>
+<c:if test="${status eq 'u' }">
+	<c:set value="수정" var="btnText"/>
+</c:if>
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
   <symbol id="bootstrap" viewBox="0 0 118 94">
     <title>Bootstrap</title>
@@ -46,25 +51,32 @@
 				<div class="">
 					<div class="card-body">
 						<form method="post" action="/board/insert.do" id="boardForm" class="form-horizontal">
+							<c:if test="${status eq 'u' }">
+								<input type="hidden" name="boNo" value="${board.boNo }" />
+							</c:if>
 							<div class="form-group row">
 								<label class="col-sm-2 control-label" >제목</label>
 								<div class="col-sm-10">
-									<input name="boTitle" id="boTitle" type="text" class="form-control" value="" placeholder="제목을 입력해주세요.">
+									<input name="boTitle" id="boTitle" type="text" class="form-control" value="${board.boTitle }" placeholder="제목을 입력해주세요.">
 								</div>
 								<font color="red" style="font-size: 12px;">${errors.boTitle }</font>
 							</div>
 							<div class="form-group row mt-4">
 								<label class="col-sm-2 control-label" >내용</label>
 								<div class="col-sm-10">
-									<textarea name="boContent" id="boContent" cols="50" rows="5" class="form-control" placeholder="content"></textarea>
+									<textarea name="boContent" id="boContent" cols="50" rows="5" class="form-control" placeholder="content">${board.boContent }</textarea>
 								</div>
 								<font color="red" style="font-size: 12px;">${errors.boContent }</font>
 							</div>
 							<div class="form-group row mt-4">
 								<div class="col-sm-offset-2 col-sm-12 ">
-									<input type="button" value="등록" class="btn btn-primary float-right" id="addBtn">
-									<input type="button" value="취소" class="btn btn-danger float-right" id="cancelBtn">
-									<input type="button" value="목록" class="btn btn-success float-right" id="listBtn">
+									<input type="button" value="${btnText }" class="btn btn-primary float-right" id="addBtn">
+									<c:if test="${status eq 'u'}">
+										<input type="button" value="취소" class="btn btn-danger float-right" id="cancelBtn">
+									</c:if>
+									<c:if test="${status ne 'u'}">
+										<input type="button" value="목록" class="btn btn-success float-right" id="listBtn">
+									</c:if>
 								</div>
 							</div>
 						</form>
@@ -95,25 +107,31 @@ $(function() {
 		let content = CKEDITOR.instances.boContent.getData();	// 내용값
 		
 		// 제목이 입력되지 않았다면
-// 		if(title == null || title == "") {
-// 			alert("제목을 입력해주세요!");
-// 			$("#boTitle").focus();
-// 			return false;
-// 		}
+		if(title == null || title == "") {
+			alert("제목을 입력해주세요!");
+			$("#boTitle").focus();
+			return false;
+		}
 		
-// 		// 내용이 입력되지 않았다면
-// 		if(content == null || content == "") {
-// 			alert("내용을 입력해주세요!");
-// 			$("#boContent").focus();
-// 			return false;
-// 		}
+		// 내용이 입력되지 않았다면
+		if(content == null || content == "") {
+			alert("내용을 입력해주세요!");
+			$("#boContent").focus();
+			return false;
+		}
+		
+		// 수정 버튼을 클릭했을 때, 수정 목적지로 form 태그를 수정한다.
+		if($(this).val() == "수정") {
+			boardForm.attr("action", "/board/update.do");
+			
+		}
 		
 		boardForm.submit();
 	});
 	
 	// 취소 버튼 이벤트
 	cancelBtn.on("click", function(){
-		location.href = "/board/list.do";
+		location.href = "/board/detail.do?boNo=${board.boNo}";
 	});
 	
 	// 목록 버튼 이벤트

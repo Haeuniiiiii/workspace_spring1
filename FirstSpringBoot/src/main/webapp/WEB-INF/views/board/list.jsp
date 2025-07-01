@@ -1,9 +1,11 @@
 <%@ page contentType="text/html; charset=utf-8"%>
+<%@ taglib uri="jakarta.tags.core" prefix="c"%>
 <html>
 <head>
 <link href="${pageContext.request.contextPath }/resources/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="${pageContext.request.contextPath }/resources/css/headers.css">
 <title>메인화면</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <style>
 .bi {
@@ -47,23 +49,26 @@
 						</div>
 						<h3 class="card-title">일반게시판</h3>
 						<div align="right">
-							<span class="badge bg-dark-subtle border border-dark-subtle text-dark-emphasis rounded-pill">전체 00건</span>
+							<span class="badge bg-dark-subtle border border-dark-subtle text-dark-emphasis rounded-pill">전체 ${pagingVO.totalRecord }건</span>
 						</div>
 					</div>
 					<div class="card-body mt-3">
 						<div align="right">
-							<form class="input-group input-group-sm" method="post" id="" style="width: 440px;">
+						<!-- form 태그 start -->
+							<form class="input-group input-group-sm" method="post" id="searchForm" style="width: 440px;">
+								<input type="hidden" name="page" id="page" />
 								<select class="form-control" name="searchType">
-									<option value="title">제목</option>
-									<option value="writer">작성자</option>
+									<option value="title" <c:if test="${searchType eq 'title' }">selected</c:if>>제목</option>
+									<option value="writer" <c:if test="${searchType eq 'writer' }">selected</c:if>>작성자</option>
 								</select>
-								<input type="text" name="searchWord" class="form-control float-right" value="" placeholder="Search">
+								<input type="text" name="searchWord" class="form-control float-right" value="${searchWord }" placeholder="Search">
 								<div class="input-group-append">
 									<button type="submit" class="btn btn-dark">
 										<i class="fas fa-search"></i>검색
 									</button>
 								</div>
 							</form>
+						<!-- form 태그 end -->
 						</div>
 						<div class="mt-2">
 							<table class="table">
@@ -77,9 +82,29 @@
 									</tr>
 								</thead>
 								<tbody>
-									<tr>
-										<td colspan="5">조회하신 게시글이 존재하지 않습니다.</td>
-									</tr>
+									<c:set value="${pagingVO.dataList }" var="boardList"/>
+									<c:choose>
+										<c:when test="${empty boardList }">
+											<tr>
+												<td colspan="5">조회하신 게시글이 존재하지 않습니다.</td>
+											</tr>
+										</c:when>
+										<c:otherwise>
+											<c:forEach items="${boardList }" var="board">
+												<tr>
+													<td>${board.boNo }</td>											
+													<td>
+														<a href="/board/detail.do?boNo=${board.boNo }">>
+															${board.boTitle }
+														</a>
+													</td>											
+													<td>${board.boWriter }</td>											
+													<td>${board.boDate }</td>											
+													<td>${board.boHit }</td>											
+												</tr>
+											</c:forEach>										
+										</c:otherwise>
+									</c:choose>
 								</tbody>
 							</table>
 						</div>
@@ -87,7 +112,7 @@
 							<a href="/board/form.do" class="btn btn-primary">등록</a>
 						</div>
 					</div>
-					<div class="card-footer clearfix mt-4" id=""></div>
+					<div class="card-footer clearfix mt-4" id="pagingArea">${pagingVO.pagingHTML }</div>
 				</div>
 			</div>
 			<div class="col-md-12"><br/><br/><br/></div>
@@ -95,4 +120,20 @@
 	</div>
 </main>
 </body>
+<script type="text/javascript">
+$(function() {
+	let pagingArea = $("#pagingArea");
+	let searchForm = $("#searchForm");
+	
+	pagingArea.on("click" , "a", function(e){
+		e.preventDefault();
+		// a태그가 가지고 있는 페이지 번호 추출
+		let pageNo = $(this).data("page");	//data-page
+		
+		// 추출한 페이지 번호를 서버로 전송하기 위해 검색 영역으로 활용할 form 태그 내 추출된 페이비 번호를 넣는다.
+		searchForm.find("#page").val(pageNo);
+		searchForm.submit();
+	});
+});
+</script>
 </html>

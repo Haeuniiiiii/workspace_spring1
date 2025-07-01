@@ -1,9 +1,11 @@
-<%@ page contentType="text/html; charset=utf-8"%>
+<%@ page contentType="text/html; charset=utf-8" %>
+<%@ taglib uri="jakarta.tags.core" prefix="c" %>
 <html>
 <head>
 <link href="${pageContext.request.contextPath }/resources/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="${pageContext.request.contextPath }/resources/css/headers.css">
 <title>자유게시판</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <style>
 .bi {
@@ -52,7 +54,8 @@
 					</div>
 					<div class="card-body mt-3">
 						<div align="right">
-							<form class="input-group input-group-sm" method="post" id="" style="width: 440px;">
+							<form class="input-group input-group-sm" method="post" id="searchForm" style="width: 440px;">
+								<input type="hidden" name="page" id="page" />
 								<select class="form-control" name="searchType">
 									<option value="title">제목</option>
 									<option value="writer">작성자</option>
@@ -77,17 +80,37 @@
 									</tr>
 								</thead>
 								<tbody>
-									<tr>
-										<td colspan="5">조회하신 게시글이 존재하지 않습니다.</td>
-									</tr>
+									<c:set value="${pagingVO.dataList }" var="freeList" />
+									<c:choose>
+										<c:when test="${empty freeList }">
+											<tr>
+												<td colspan="5">조회하신 게시글이 존재하지 않습니다.</td>
+											</tr>
+										</c:when>
+										<c:otherwise>
+											<c:forEach items="${freeList }" var="free">
+												<tr>
+													<td>${free.freeNo }</td>
+													<td>
+														<a href="/free/detail.do?freeNo=${free.freeNo }">
+														${free.freeTitle }
+														</a>
+													</td>
+													<td>${free.freeWriter }</td>
+													<td>${free.freeDate }</td>
+													<td>${free.freeHit }</td>
+												</tr>
+											</c:forEach>
+										</c:otherwise>
+									</c:choose>
 								</tbody>
 							</table>
 						</div>
 						<div align="left">
-							<a href="" class="btn btn-primary">등록</a>
+							<a href="/free/form.do" class="btn btn-primary">등록</a>
 						</div>
 					</div>
-					<div class="card-footer clearfix mt-4" id=""></div>
+					<div class="card-footer clearfix mt-4" id="pagingArea">${pagingVO.pagingHTML }</div>
 				</div>
 			</div>
 			<div class="col-md-12"><br/><br/><br/></div>
@@ -95,32 +118,21 @@
 	</div>
 </main>
 </body>
+<script type="text/javascript">
+$(function() {
+	
+	let pagingArea = $("#pagingArea");
+	let searchForm = $("#searchForm");
+	
+	pagingArea.on("click", "a", function(e){
+		e.preventDefault();
+		let pageNo = $(this).data("page");
+		
+		searchForm.find("#page").val(pageNo);
+		searchForm.submit();
+	});
+	
+});
+
+</script>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

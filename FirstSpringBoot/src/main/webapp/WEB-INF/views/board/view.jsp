@@ -64,6 +64,10 @@
 				</div>
 			</div>
 			<div class="col-md-12"><br/><br/><br/></div>
+			<!-- 하나의 공유 공간으로 활용 -->
+			<form action="/board/delete.do" method="post" id="delForm">
+				<input type="hidden" name="boNo" value="${board.boNo }"> 
+			</form>
 		</div>
 	</div>
 </main>
@@ -75,6 +79,7 @@ $(function(){
 	let listBtn = $("#listBtn");		// 목록 버튼 Element
 	let updateBtn = $("#updateBtn");	// 수정 버튼 Element
 	let deleteBtn = $("#deleteBtn");	// 삭제 버튼 Element
+	let delForm = $("#delForm");		// Form Element
 	
 	// 목록 버튼 이벤트
 	listBtn.on("click", function() {
@@ -83,10 +88,16 @@ $(function(){
 	
 	// 수정 버튼 이벤트
 	updateBtn.on("click", function() {
+		delForm.attr("action", "/board/update.do");
+		delForm.attr("method", "get");
+		delForm.submit();
 	});
 	
 	// 삭제 버튼 이벤트
 	deleteBtn.on("click", function() {
+		if(confirm("정말로 삭제하시겠습니까?")) {
+			delForm.submit();
+		} 
 	});
 	
 });
