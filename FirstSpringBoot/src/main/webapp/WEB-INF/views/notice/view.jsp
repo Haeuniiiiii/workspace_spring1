@@ -4,6 +4,7 @@
 <link href="${pageContext.request.contextPath }/resources/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="${pageContext.request.contextPath }/resources/css/headers.css">
 <title>공지게시판 등록/수정</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <style>
 .bi {
@@ -43,12 +44,16 @@
 			<div class="col-md-12">
 				<div class="">
 					<div class="card-header">
-						<h3 class="card-title"></h3>
-						<div class="card-tools mt-1"></div>
+						<h3 class="card-title">${notice.noTitle }</h3>
+						<div class="card-tools mt-1">
+							${notice.noWriter } ${notice.noDate } ${notice.noHit }  
+						</div>
 					</div>
 					<div class="card-body">
 						<div class="form-group row mt-1">
-							<div class="col-sm-12"></div>
+							<div class="col-sm-12">
+								${notice.noContent } 
+							</div>
 						</div>
 					</div>
 					<div class="card-footer">
@@ -59,10 +64,45 @@
 				</div>
 			</div>
 			<div class="col-md-12"><br/><br/><br/></div>
+			<!-- 하나의 공유 공간으로 활용 -->
+			<form action="/notice/delete.do" method="post" id="delForm">
+				<input type="hidden" name="noNo" value="${notice.noNo }"> 
+			</form>
 		</div>
 	</div>
 </main>
 </body>
+
+<script type="text/javascript">
+$(function(){
+		
+	let listBtn = $("#listBtn");		// 목록 버튼 Element
+	let updateBtn = $("#updateBtn");	// 수정 버튼 Element
+	let deleteBtn = $("#deleteBtn");	// 삭제 버튼 Element
+	let delForm = $("#delForm");		// Form Element
+	
+	// 목록 버튼 이벤트
+	listBtn.on("click", function() {
+		location.href = "/notice/list.do";
+	});
+	
+	// 수정 버튼 이벤트
+	updateBtn.on("click", function() {
+		delForm.attr("action", "/notice/update.do");
+		delForm.attr("method", "get");
+		delForm.submit();
+	});
+	
+	// 삭제 버튼 이벤트
+	deleteBtn.on("click", function() {
+		if(confirm("정말로 삭제하시겠습니까?")) {
+			delForm.submit();
+		} 
+	});
+	
+});
+
+</script>
 </html>
 
 

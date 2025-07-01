@@ -1,9 +1,12 @@
 <%@ page contentType="text/html; charset=utf-8"%>
+<%@ taglib uri="jakarta.tags.core" prefix="c"%>
 <html>
 <head>
 <link href="${pageContext.request.contextPath }/resources/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="${pageContext.request.contextPath }/resources/css/headers.css">
 <title>공지게시판 등록/수정</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath }/resources/ckeditor/ckeditor.js"></script>
 </head>
 <style>
 .bi {
@@ -12,6 +15,10 @@
 }
 </style>
 <body>
+<c:set value="등록" var="btnText"/>
+<c:if test="${status eq 'u' }">
+	<c:set value="수정" var="btnText"/>
+</c:if>
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
   <symbol id="bootstrap" viewBox="0 0 118 94">
     <title>Bootstrap</title>
@@ -44,23 +51,32 @@
 				<div class="">
 					<div class="card-body">
 						<form method="post" action="" id="" class="form-horizontal">
+							<c:if test="${status eq 'u' }">
+									<input type="hidden" name="noNo" value="${notice.noNo }" />
+							</c:if>
 							<div class="form-group row">
 								<label class="col-sm-2 control-label" >제목</label>
 								<div class="col-sm-10">
-									<input name="boTitle" type="text" class="form-control" value="" placeholder="제목을 입력해주세요.">
+									<input name="noTitle" id="noTitle" type="text" class="form-control" value="${notice.noTitle }" placeholder="제목을 입력해주세요.">
 								</div>
+								<font color="red" style="font-size: 12px;">${errors.noTitle }</font>
 							</div>
 							<div class="form-group row mt-4">
 								<label class="col-sm-2 control-label" >내용</label>
 								<div class="col-sm-10">
-									<textarea name="boContent" cols="50" rows="5" class="form-control" placeholder="content"></textarea>
+									<textarea name="noContent" id="noContent" cols="50" rows="5" class="form-control" placeholder="content">${notice.noContent }</textarea>
 								</div>
+								<font color="red" style="font-size: 12px;">${errors.noContent }</font>
 							</div>
 							<div class="form-group row mt-4">
 								<div class="col-sm-offset-2 col-sm-12 ">
-									<input type="button" value="등록" class="btn btn-primary float-right" id="">
-									<input type="button" value="취소" class="btn btn-danger float-right" id="">
-									<input type="button" value="목록" class="btn btn-success float-right" id="">
+									<input type="button" value="${btnText }" class="btn btn-primary float-right" id="addBtn">
+									<c:if test="${status eq 'u'}">
+										<input type="button" value="취소" class="btn btn-danger float-right" id="cancelBtn">
+									</c:if>
+									<c:if test="${status ne 'u'}">
+										<input type="button" value="목록" class="btn btn-success float-right" id="listBtn">
+									</c:if>
 								</div>
 							</div>
 						</form>
@@ -72,4 +88,52 @@
 	</div>
 </main>
 </body>
+<script type="text/javascript">
+$(function() {
+	CKEDITOR.replace("noContent");
+	
+	let addBtn = $("#addBtn");			// 등록 버튼
+	let cancelBtn = $("#cancelBtn");	// 취소 버튼
+	let listBtn = $("#listBtn");		// 목록 버튼
+	let noticeForm = $("#noticeForm");	// form
+	
+	// 등록 버튼 이벤트
+	addBtn.on("click", function(){
+		let title = $("#noTitle").val();		// 제목값
+				let content = CKEDITOR.instances.noContent.getData();	// 내용값
+		
+		// 제목이 입력되지 않았다면
+		if(title == null || title == "") {
+			alert("제목을 입력해주세요!");
+			$("#noTitle").focus();
+			return false;
+		}
+		
+		// 내용이 입력되지 않았다면
+		if(content == null || content == "") {
+			alert("내용을 입력해주세요!");
+			$("#noContent").focus();
+			return false;
+		}
+		
+		// 수정 버튼을 클릭했을 때, 수정 목적지로 form 태그를 수정한다.
+		if($(this).val() == "수정") {
+			noticeForm.attr("action", "/notice/update.do");
+		}
+		
+		noticeForm.submit();
+	});
+	
+	// 취소 버튼 이벤트
+	cancelBtn.on("click", function(){
+		location.href = "/notice/detail.do?noNo=${notice.noNo}";
+	});
+	
+	// 목록 버튼 이벤트
+	listBtn.on("click", function(){
+		location.href = "/notice/list.do";
+	});
+	
+});
+</script>
 </html>

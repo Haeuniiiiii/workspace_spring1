@@ -101,4 +101,25 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	
 	</select>
 	
+	
+	<!-- 게시판 게시글 수정 -->
+	<update id="updateNotice" parameterType="noticeVO">
+	
+		update notice
+		set
+             no_title = #{noTitle}
+             , no_content = #{noContent}
+             , no_date = sysdate
+        where no_no = #{noNo}
+
+	</update>
+	
+	<!-- 게시판 게시글 삭제 -->
+	<delete id="deleteNotice" parameterType="int">
+	
+		delete from notice
+		where no_no = #{noNo}
+		
+	</delete>
+	
 </mapper>
