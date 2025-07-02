@@ -102,23 +102,38 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	</select>
 	
 	
-	<!-- 게시판 게시글 수정 -->
-	<update id="updateNotice" parameterType="noticeVO">
+	<select id="mainFreeList" resultType="freeVO">
 	
-		update notice
+	    select *
+	    from (
+	        select *
+	        from free
+	        order by free_no DESC
+	    	)
+	    <![CDATA[
+    	where rownum <= 5
+	    ]]>
+	    
+	</select>
+	
+	
+	<!-- 게시판 게시글 수정 -->
+	<update id="updateFree" parameterType="freeVO">
+	
+		update free
 		set
-             no_title = #{noTitle}
-             , no_content = #{noContent}
-             , no_date = sysdate
-        where no_no = #{noNo}
+             free_title = #{freeTitle}
+             , free_content = #{freeContent}
+             , free_date = sysdate
+        where free_no = #{freeNo}
 
 	</update>
 	
 	<!-- 게시판 게시글 삭제 -->
-	<delete id="deleteNotice" parameterType="int">
+	<delete id="deleteFree" parameterType="int">
 	
-		delete from notice
-		where no_no = #{noNo}
+		delete from free
+		where free_no = #{freeNo}
 		
 	</delete>
 	

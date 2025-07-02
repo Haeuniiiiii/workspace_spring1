@@ -92,15 +92,15 @@
 										<c:otherwise>
 											<c:forEach items="${noticeList }" var="notice">
 												<tr>
-													<td>${notice.noNo }</td>											
+													<td>${notice.noticeNo }</td>											
 													<td>
-														<a href="/notice/detail.do?noNo=${notice.noNo }">>
-															${notice.noTitle }
+														<a href="/notice/detail.do?noticeNo=${notice.noticeNo }">
+															${notice.noticeTitle }
 														</a>
 													</td>											
-													<td>${notice.noWriter }</td>											
-													<td>${notice.noDate }</td>											
-													<td>${notice.noHit }</td>											
+													<td>${notice.noticeWriter }</td>											
+													<td>${notice.noticeDate }</td>											
+													<td>${notice.noticeHit }</td>											
 												</tr>
 											</c:forEach>										
 										</c:otherwise>
@@ -109,10 +109,10 @@
 							</table>
 						</div>
 						<div align="left">
-							<a href="" class="btn btn-primary">등록</a>
+							<a href="/notice/form.do" class="btn btn-primary">등록</a>
 						</div>
 					</div>
-					<div class="card-footer clearfix mt-4" id=""></div>
+					<div class="card-footer clearfix mt-4" id="pagingArea">${pagingVO.pagingHTML }</div>
 				</div>
 			</div>
 			<div class="col-md-12"><br/><br/><br/></div>

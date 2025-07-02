@@ -44,29 +44,29 @@
 			<div class="col-md-12">
 				<div class="">
 					<div class="card-header">
-						<h3 class="card-title">${notice.noTitle }</h3>
+						<h3 class="card-title">${notice.noticeTitle }</h3>
 						<div class="card-tools mt-1">
-							${notice.noWriter } ${notice.noDate } ${notice.noHit }  
+							${notice.noticeWriter } ${notice.noticeDate } ${notice.noticeHit }  
 						</div>
 					</div>
 					<div class="card-body">
 						<div class="form-group row mt-1">
 							<div class="col-sm-12">
-								${notice.noContent } 
+								${notice.noticeContent } 
 							</div>
 						</div>
 					</div>
 					<div class="card-footer">
-						<button type="button" class="btn btn-primary" id="">목록</button>
-						<button type="button" class="btn btn-info" id="">수정</button>
-						<button type="button" class="btn btn-danger" id="">삭제</button>
+						<button type="button" class="btn btn-primary" id="listBtn">목록</button>
+						<button type="button" class="btn btn-info" id="updateBtn">수정</button>
+						<button type="button" class="btn btn-danger" id="deleteBtn">삭제</button>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-12"><br/><br/><br/></div>
 			<!-- 하나의 공유 공간으로 활용 -->
 			<form action="/notice/delete.do" method="post" id="delForm">
-				<input type="hidden" name="noNo" value="${notice.noNo }"> 
+				<input type="hidden" name="noticeNo" value="${notice.noticeNo }"> 
 			</form>
 		</div>
 	</div>
@@ -104,24 +104,3 @@ $(function(){
 
 </script>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

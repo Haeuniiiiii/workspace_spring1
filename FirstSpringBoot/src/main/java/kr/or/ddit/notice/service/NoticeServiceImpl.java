@@ -17,11 +17,11 @@ public class NoticeServiceImpl implements INoticeService {
 	private INoticeMapper mapper;
 	
 	@Override
-	public ServiceResult insertNotice(NoticeVO NoticeVO) {
+	public ServiceResult insertNotice(NoticeVO noticeVO) {
 		ServiceResult result = null;
 		
 		// 등록했다면 1 실패했다면 0 을 받았겠죠
-		int status = mapper.insertNotice(NoticeVO);
+		int status = mapper.insertNotice(noticeVO);
 		if(status > 0) {	// 등록 성공
 			result = ServiceResult.OK;
 		} else {	// 등록 실패
@@ -33,9 +33,9 @@ public class NoticeServiceImpl implements INoticeService {
 
 	
 	@Override
-	public NoticeVO selectNotice(int noNo) {
-		mapper.incrementHit(noNo);	// 조회수 증가
-		return mapper.selectNotice(noNo);
+	public NoticeVO selectNotice(int noticeNo) {
+		mapper.incrementHit(noticeNo);	// 조회수 증가
+		return mapper.selectNotice(noticeNo);
 	}
 
 
@@ -52,9 +52,9 @@ public class NoticeServiceImpl implements INoticeService {
 
 
 	@Override
-	public ServiceResult updateNotice(NoticeVO NoticeVO) {
+	public ServiceResult updateNotice(NoticeVO noticeVO) {
 		ServiceResult result = null;
-		int status = mapper.updateNotice(NoticeVO);
+		int status = mapper.updateNotice(noticeVO);
 		if(status > 0) {	// 수정 성공
 			result = ServiceResult.OK;
 		} else {	// 수정 실패
@@ -65,9 +65,9 @@ public class NoticeServiceImpl implements INoticeService {
 
 
 	@Override
-	public ServiceResult deleteNotice(int noNo) {
+	public ServiceResult deleteNotice(int noticeNo) {
 		ServiceResult result = null;
-		int status = mapper.deleteNotice(noNo);
+		int status = mapper.deleteNotice(noticeNo);
 		if(status > 0) {	// 삭제 성공
 			result = ServiceResult.OK;
 		} else {	// 삭제 실패

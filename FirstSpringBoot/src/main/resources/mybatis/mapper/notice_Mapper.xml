@@ -8,44 +8,44 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	<!-- 게시판 게시글 검색을 위한 동적 쿼리 -->
 	<sql id="noticeSearch">
 		<if test="searchWord != null and searchType == 'title'">
-			and (no_title like '%' ||#{searchWord}||'%')
+			and (notice_title like '%' ||#{searchWord}||'%')
 		</if>
 		<if test="searchWord != null and searchType == 'writer'">
-			and (no_writer like '%' ||#{searchWord}||'%')
+			and (notice_writer like '%' ||#{searchWord}||'%')
 		</if>
 	</sql>
 
 
-	<!-- 게시판 게시글 등록 -->
+	<!-- 등록 -->
 	<insert id="insertNotice" parameterType="noticeVO" useGeneratedKeys="true">
 		
-			<selectKey keyProperty="noNo" resultType="int" order="BEFORE">
+			<selectKey keyProperty="noticeNo" resultType="int" order="BEFORE">
 				select seq_notice.nextval 
 				from dual
 			</selectKey>
 			insert into notice(
-				no_no
-				, no_title
-				, no_content
-				, no_writer
-				, no_date
+				notice_no
+				, notice_title
+				, notice_content
+				, notice_writer
+				, notice_date
 			) values (
-				#{noNo}
-				,#{noTitle}
-				,#{noContent}
-				,#{noWriter}
+				#{noticeNo}
+				,#{noticeTitle}
+				,#{noticeContent}
+				,#{noticeWriter}
 				, sysdate
 			)
 			
 	</insert>
 	
-	<!-- 게시판 게시글 조회수 증가 -->
+	<!-- 조회수 증가 -->
 	<update id="incrementHit" parameterType="int">
 		
 		update notice
 		set 
-			no_hit = no_hit + 1
-		where no_no = #{noNo}
+			notice_hit = notice_hit + 1
+		where notice_no = #{noticeNo}
 	
 	</update>
 	
@@ -54,14 +54,14 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	<select id="selectNotice" parameterType="int" resultType="noticeVO">
 	
 		select
-			no_no
-			, no_title
-			, no_content
-			, no_writer
-			, no_date
-			, no_hit
+			notice_no
+			, notice_title
+			, notice_content
+			, notice_writer
+			, notice_date
+			, notice_hit
 		from notice
-		where no_no = #{noNo}
+		where notice_no = #{noticeNo}
 		
 	</select>
 	
@@ -69,7 +69,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	<!-- 게시판 전체 게시글 수 -->
 	<select id="selectNoticeCount" parameterType="paginationInfoVO" resultType="int">
 	
-		select count(no_no)
+		select count(notice_no)
 		from notice
 		where 1=1
 		<include refid="noticeSearch" />
@@ -83,19 +83,19 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		select b.*
 		from (
 		    select a.*
-		        , row_number() over(order by a.no_no desc) rnum 
+		        , row_number() over(order by a.notice_no desc) rnum 
 		    from(
 		        select
-		                no_no
-		                , no_title
-		                , no_content
-		                , no_writer
-		                , no_date
-		                , no_hit
+		                notice_no
+		                , notice_title
+		                , notice_content
+		                , notice_writer
+		                , notice_date
+		                , notice_hit
 		            from notice
 		            where 1=1
 					<include refid="noticeSearch" />
-		            order by no_no desc 
+		            order by notice_no desc 
 		        ) a
 		    ) b  
 		    <![CDATA[
@@ -110,10 +110,10 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	
 		update notice
 		set
-             no_title = #{noTitle}
-             , no_content = #{noContent}
-             , no_date = sysdate
-        where no_no = #{noNo}
+             notice_title = #{noticeTitle}
+             , notice_content = #{noticeContent}
+             , notice_date = sysdate
+        where notice_no = #{noticeNo}
 
 	</update>
 	
@@ -121,7 +121,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	<delete id="deleteNotice" parameterType="int">
 	
 		delete from notice
-		where no_no = #{noNo }
+		where notice_no = #{noticeNo }
 		
 	</delete>
 	

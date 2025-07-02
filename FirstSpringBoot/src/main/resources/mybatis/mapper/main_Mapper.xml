@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper 
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="kr.or.ddit.main.mapper.IMainMapper">
+
+    <select id="selectFreeCount" parameterType="paginationInfoVO" resultType="int">
+        select count(*)
+        from free
+    </select>
+
+    <select id="selectFreeList" parameterType="paginationInfoVO" resultType="freeVO">
+    
+		select *
+		from (
+		    select *
+		    from free
+		    order by free_no DESC
+		    )
+	    <![CDATA[
+			where rownum <= 5
+		]]>
+		
+    </select>
+    
+    
+
+    <select id="selectBoardCount" parameterType="paginationInfoVO" resultType="int">
+        select count(*) 
+        from board
+    </select>
+
+    <select id="selectBoardList" parameterType="paginationInfoVO" resultType="boardVO">
+    
+		select *
+		from (
+		    select *
+		    from board
+		    order by bo_no DESC
+		    )
+	    <![CDATA[
+			where rownum <= 5
+		]]>
+		
+    </select>
+
+	
+</mapper>

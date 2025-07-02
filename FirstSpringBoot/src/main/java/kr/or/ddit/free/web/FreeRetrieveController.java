@@ -6,13 +6,17 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import kr.or.ddit.board.web.BoardInsertController;
+
+import kr.or.ddit.ServiceResult;
 import kr.or.ddit.free.service.IFreeService;
 import kr.or.ddit.vo.FreeVO;
 import kr.or.ddit.vo.PaginationInfoVO;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j // simple log4j
 @Controller
 @RequestMapping("/free")
 public class FreeRetrieveController {
@@ -51,6 +55,25 @@ public class FreeRetrieveController {
 		model.addAttribute("free", freeVO);
 		
 		return "free/view";
+	}
+	
+	@PostMapping("/delete.do") // 목적지 설정과 get Post 중요.......
+	public String freeDelete(int freeNo, Model model) {
+		String goPage = "";
+		ServiceResult result = freeService.deleteFree(freeNo);
+		
+//		log.debug();
+		if(result.equals(ServiceResult.OK)) {
+			// 삭제 성공 시 이동할 페이지
+			// 성공했으니 목록페이지로 가라
+			goPage = "redirect:/free/list.do";
+			// 리다이렉트 하는 이유는? 내부에서 알아서 경로 좀 바꿔줘라
+		} else {
+			// 삭제 실패하면 다시 해당 no의 게시글 상세보기로 이동해라
+			goPage = "redirect:/free/detail.do?freeNo=" + freeNo;
+		}
+		
+		return goPage; // 작업이 다 끝났으면 마지막으로 내가 할 일을 뱉어내!
 	}
 	
 }

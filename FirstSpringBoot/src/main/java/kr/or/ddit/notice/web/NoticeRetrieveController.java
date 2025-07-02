@@ -62,8 +62,8 @@ public class NoticeRetrieveController {
 	
 	// 일반게시판 상세정보 페이지
 	@GetMapping("/detail.do")
-	public String noticeDetail(int noNo, Model model) {
-		NoticeVO noticeVO = noticeService.selectNotice(noNo);
+	public String noticeDetail(int noticeNo, Model model) {
+		NoticeVO noticeVO = noticeService.selectNotice(noticeNo);
 		model.addAttribute("notice", noticeVO);
 		
 		return "notice/view";
@@ -71,13 +71,13 @@ public class NoticeRetrieveController {
 	
 	
 	@PostMapping("/delete.do")
-	public String noticeDelete(int noNo, Model model) {
+	public String noticeDelete(int noticeNo, Model model) {
 		String goPage = "";
-		ServiceResult result = noticeService.deleteNotice(noNo);
+		ServiceResult result = noticeService.deleteNotice(noticeNo);
 		if(result.equals(ServiceResult.OK)) {	// 삭제 성공
 			goPage = "redirect:/notice/list.do";
 		} else {	// 삭제 실패
-			goPage = "redirect:/notice/detail.do?noNo=" + noNo;
+			goPage = "redirect:/notice/detail.do?noticeNo=" + noticeNo;
 		}
 		return goPage;
 	}

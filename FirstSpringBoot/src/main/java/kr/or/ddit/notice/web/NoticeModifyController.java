@@ -21,8 +21,8 @@ public class NoticeModifyController {
 	
 	// 수정 페이지
 	@GetMapping("/update.do")
-	public String noticeUpdateForm(int noNo, Model model) {
-		NoticeVO noticeVO = noticeService.selectNotice(noNo);
+	public String noticeUpdateForm(int noticeNo, Model model) {
+		NoticeVO noticeVO = noticeService.selectNotice(noticeNo);
 		model.addAttribute("notice", noticeVO);
 		model.addAttribute("status", "u");
 		return "notice/form";
@@ -35,7 +35,7 @@ public class NoticeModifyController {
 		String goPage = "";
 		ServiceResult result = noticeService.updateNotice(noticeVO);
 		if(result.equals(ServiceResult.OK)) {	// 수정 성공
-			goPage = "redirect:/notice/detail.do?noNo=" + noticeVO.getNoNo();
+			goPage = "redirect:/notice/detail.do?noticeNo=" + noticeVO.getNoticeNo();
 		} else {	// 수정 실패
 			model.addAttribute("notice", noticeVO);
 			model.addAttribute("status", "u");

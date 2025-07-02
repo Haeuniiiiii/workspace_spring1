@@ -1,3 +1,4 @@
+<%@page import="kr.or.ddit.main.service.MainServiceImpl"%>
 <%@ page contentType="text/html; charset=utf-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ page import="java.util.*"%>
@@ -6,11 +7,16 @@
 <link href="${pageContext.request.contextPath }/resources/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="${pageContext.request.contextPath }/resources/css/headers.css">
 <title>메인화면</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <style>
 .bi {
 	vertical-align: -.125em;
 	fill: currentColor;
+}
+.noticeLine:hover {
+	background-color: #21252963;
+	opacity: 0.8;
 }
 </style>
 <body>
@@ -48,30 +54,52 @@
 					<h5>일반 게시판</h5>
 				</div>
 				<div align="right">
-					<span class="badge bg-dark-subtle border border-dark-subtle text-dark-emphasis rounded-pill">전체 00건</span>
+					<span class="badge bg-dark-subtle border border-dark-subtle text-dark-emphasis rounded-pill">
+						전체 ${mainFreeList.totalRecord}건
+					</span>
 				</div>
-				<form action="" method="post">
-					<div style="padding-top: 50px">
-						<table class="table">
-							<tr class="table-dark">
+				<div style="padding-top: 50px">
+					<table class="table">
+						<thead class="table-dark">
+							<tr>
 								<th>번호</th>
 								<th>제목</th>
 								<th>작성일</th>
 							</tr>
-							<tr>
-								<td colspan="3">조회하신 게시글이 존재하지 않습니다.</td>
-							</tr>
-						</table>
-					</div>
-				</form>
-				<a href="/board/list.do" onclick="" class="btn btn-outline-primary">&laquo;더보기</a>
+						</thead>
+						<tbody>
+							<c:choose>
+								<c:when test="${empty mainBoardList.dataList}">
+									<tr>
+										<td colspan="3">조회하신 게시글이 존재하지 않습니다.</td>
+									</tr>
+								</c:when>
+								<c:otherwise>
+									<c:forEach items="${mainBoardList.dataList}" var="board">
+										<tr>
+											<td>${board.boNo}</td>
+											<td>
+												<a href="/board/detail.do?boNo=${board.boNo}">
+													${board.boTitle}
+												</a>
+											</td>
+											<td>${board.boDate}</td>
+										</tr>
+									</c:forEach>
+								</c:otherwise>
+							</c:choose>
+						</tbody>
+					</table>
+				</div>
+				<a href="/board/list.do" class="btn btn-outline-primary">&laquo;더보기</a>
 			</div>
 			<div class="col-md-6">
 				<div align="left">
 					<h5>공지사항</h5>
+<%-- 					<c:out value="${pagingNoticeVO.dataList}"/> --%>
 				</div>
 				<div align="right">
-					<span class="badge bg-dark-subtle border border-dark-subtle text-dark-emphasis rounded-pill">전체 00건</span>
+					<span class="badge bg-dark-subtle border border-dark-subtle text-dark-emphasis rounded-pill">전체 ${pagingNoticeVO.totalRecord }건</span>
 				</div>
 				<form action="" method="post">
 					<div style="padding-top: 50px">
@@ -81,9 +109,23 @@
 								<th>제목</th>
 								<th>작성일</th>
 							</tr>
-							<tr>
-								<td colspan="3">조회하신 게시글이 존재하지 않습니다.</td>
-							</tr>
+							<c:set value="${pagingNoticeVO.dataList }" var="noticeList"/>
+							<c:choose>
+								<c:when test="${empty noticeList }">
+									<tr>
+										<td colspan="3">조회하신 게시글이 존재하지 않습니다.</td>
+									</tr>
+								</c:when>
+								<c:otherwise>
+									<c:forEach items="${noticeList }" var="notice" >
+										<tr class="noticeLine" data-noticeno="${notice.noticeNo }">
+											<td>${notice.noticeNo }</td>											
+											<td>${notice.noticeTitle }</td>																	
+											<td>${notice.noticeDate }</td>											
+										</tr>
+									</c:forEach>										
+								</c:otherwise>
+							</c:choose>
 						</table>
 					</div>
 				</form>
@@ -97,23 +139,44 @@
 					<h5>자유 게시판</h5>
 				</div>
 				<div align="right">
-					<span class="badge bg-dark-subtle border border-dark-subtle text-dark-emphasis rounded-pill">전체 00건</span>
+					<span class="badge bg-dark-subtle border border-dark-subtle text-dark-emphasis rounded-pill">
+						전체 ${mainFreeList.totalRecord}건
+					</span>
 				</div>
-				<form action="" method="post">
-					<div style="padding-top: 50px">
-						<table class="table">
-							<tr class="table-dark">
+				<div style="padding-top: 50px">
+					<table class="table">
+						<thead class="table-dark">
+							<tr>
 								<th>번호</th>
 								<th>제목</th>
 								<th>작성일</th>
 							</tr>
-							<tr>
-								<td colspan="3">조회하신 게시글이 존재하지 않습니다.</td>
-							</tr>
-						</table>
-					</div>
-				</form>
-				<a href="/free/list.do" onclick="" class="btn btn-outline-primary">&laquo;더보기</a>
+						</thead>
+						<tbody>
+							<c:choose>
+								<c:when test="${empty mainFreeList.dataList}">
+									<tr>
+										<td colspan="3">조회하신 게시글이 존재하지 않습니다.</td>
+									</tr>
+								</c:when>
+								<c:otherwise>
+									<c:forEach items="${mainFreeList.dataList}" var="free">
+										<tr>
+											<td>${free.freeNo}</td>
+											<td>
+												<a href="/free/detail.do?freeNo=${free.freeNo}">
+													${free.freeTitle}
+												</a>
+											</td>
+											<td>${free.freeDate}</td>
+										</tr>
+									</c:forEach>
+								</c:otherwise>
+							</c:choose>
+						</tbody>
+					</table>
+				</div>
+				<a href="/free/list.do" class="btn btn-outline-primary">&laquo;더보기</a>
 			</div>
 			<div class="col-md-6"></div>
 		</div>
@@ -121,4 +184,18 @@
 	</div>
 </main>
 </body>
+<script type="text/javascript">
+$(function() {
+// 새롭게 적용해본 방법
+	let noticeLine = $(".noticeLine");
+	
+	noticeLine.on("click", function(){
+		let ck = $(this).data("noticeno");
+// 		alert($(this).data("noticeno"));
+// 		console.log(ck);
+		location.href="/notice/detail.do?noticeNo="+ck
+	}); 
+
+});
+</script>
 </html>

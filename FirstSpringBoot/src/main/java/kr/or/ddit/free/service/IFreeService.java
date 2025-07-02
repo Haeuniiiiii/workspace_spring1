@@ -15,6 +15,11 @@ public interface IFreeService {
 	public int selectFreeCount(PaginationInfoVO<FreeVO> pVO);
 
 	public List<FreeVO> selectFreeList(PaginationInfoVO<FreeVO> pVO);
+
+	public ServiceResult updateFree(FreeVO freeVO);
+
+	public ServiceResult deleteFree(int freeNo);
+	
 	
 	// 필요한 필드값 VO 클래스 생성
 	// 등록버튼 누르면 등록 폼페이지 링크 나오게

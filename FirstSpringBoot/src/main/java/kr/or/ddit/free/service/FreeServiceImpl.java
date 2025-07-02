@@ -49,9 +49,36 @@ public class FreeServiceImpl implements IFreeService {
 	public List<FreeVO> selectFreeList(PaginationInfoVO<FreeVO> pVO) {
 		return mapper.selectFreeList(pVO);
 	}
+	
+	
+	@Override
+	public ServiceResult updateFree(FreeVO freeVO) {
+		ServiceResult result = null;
+		
+		int status = mapper.updateFree(freeVO);
+		if(status > 0) {
+			result = ServiceResult.OK; // 수정 성공
+		} else {
+			result = ServiceResult.FAILED;	// 수정 실패
+		}
+		return result; // 결과를 뱉어내랑
+	}
 
-	
-	
-	
+
+	@Override
+	public ServiceResult deleteFree(int freeNo) {
+		ServiceResult result = null;
+		
+		int status = mapper.deleteFree(freeNo); // freeNo를 받아서 해당 자유글을 삭제 하겠음
+		
+		if(status > 0) {
+			// 삭제할 데이터가 있어서 그러니까 삭제할 게시글no가 있어서 삭제를 하겠음
+			result = ServiceResult.OK;
+		} else {
+			result = ServiceResult.FAILED;
+		}
+		
+		return result;
+	}
 	
 }

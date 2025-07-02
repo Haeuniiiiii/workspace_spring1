@@ -49,7 +49,7 @@
 							<div class="form-group row">
 								<label class="col-sm-2 control-label" >제목</label>
 								<div class="col-sm-10">
-									<input name="freeTitle" type="text" class="form-control" value="" placeholder="제목을 입력해주세요.">
+									<input name="freeTitle" type="text" class="form-control" value="${free.freeTitle }" placeholder="제목을 입력해주세요.">
 								</div>
 								<!-- 유효성검사 시 빨간글자로 표시해줄 영역 -->
 								<font color="red" style="font-size:12px;">${errors.freeTitle }</font>
@@ -57,7 +57,7 @@
 							<div class="form-group row mt-4">
 								<label class="col-sm-2 control-label" >내용</label>
 								<div class="col-sm-10">
-									<textarea name="freeContent" cols="50" rows="5" class="form-control" placeholder="content"></textarea>
+									<textarea name="freeContent" cols="50" rows="5" class="form-control" placeholder="content">${free.freeContent }</textarea>
 								</div>
 								<!-- 유효성검사 시 빨간글자로 표시해줄 영역 -->
 								<font color="red" style="font-size:12px;">${errors.freeContent }</font>

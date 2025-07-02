@@ -58,12 +58,16 @@
 					</div>
 					<div class="card-footer">
 						<button type="button" class="btn btn-primary" id="listBtn">목록</button>
-						<button type="button" class="btn btn-info" id="udtBtn">수정</button>
+						<button type="button" class="btn btn-info" id="updBtn">수정</button>
 						<button type="button" class="btn btn-danger" id="delBtn">삭제</button>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-12"><br/><br/><br/></div>
+			<!-- 작성폼을 호출할 수 있는 하나의 공유 공간으로 활용 -->
+			<form action="/free/delete.do" method="post" id="delForm">
+				<input type="hidden" name="freeNo" value="${free.freeNo }"> 
+			</form>
 		</div>
 	</div>
 </main>
@@ -71,29 +75,33 @@
 <script type="text/javascript">
 $(function(){
 	let listBtn = $("#listBtn");	// 목록 버튼
-	let udtBtn = $("#udtBtn");		// 수정 버튼
+	let updBtn = $("#updBtn");		// 수정 버튼
 	let delBtn = $("#delBtn");		// 삭제 버튼
+	let delForm = $("#delForm");	// Form 공유공간
 	
 	// 목록 버튼 이벤트
 	listBtn.on("click", function(){
-// 		alert("목록버튼 체킁");
+		alert("목록버튼 체킁");
 		location.href = "/free/list.do";	
 	});
 	
 	
 	// 수정 버튼 이벤트
-	udtBtn.on("click", function(){
+	updBtn.on("click", function(){
 // 		alert("수정버튼 체킁");
-		
+		delForm.attr("action", "/free/update.do");	// delform버튼을 누르면 delform의 action 속성값이 원하는 URL로 변경되게 해라
+		delForm.attr("method", "get"); 			 	// method방식이 원래는 post였는데 get으로 변경해라
+		delForm.submit();							// 보내랏!
 	});
 	
 	
 	// 삭제 버튼 이벤트
 	delBtn.on("click", function(){
 // 		alert("삭제버튼 체킁");
-		
+		if(confirm("정말로 삭제하시겠습니까?")) {
+			delForm.submit();
+		}
 	});
-	
 	
 	
 });

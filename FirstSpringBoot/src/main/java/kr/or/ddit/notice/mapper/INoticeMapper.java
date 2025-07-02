@@ -10,13 +10,13 @@ import kr.or.ddit.vo.PaginationInfoVO;
 @Mapper
 public interface INoticeMapper {
 
-	public int insertNotice(NoticeVO NoticeVO);
-	public void incrementHit(int noNo);
-	public NoticeVO selectNotice(int noNo);
+	public int insertNotice(NoticeVO noticeVO);
+	public void incrementHit(int noticeNo);
+	public NoticeVO selectNotice(int noticeNo);
 
 	public int selectNoticeCount(PaginationInfoVO<NoticeVO> pagingVO);
 	public List<NoticeVO> selectNoticeList(PaginationInfoVO<NoticeVO> pagingVO);
-	public int updateNotice(NoticeVO NoticeVO);
-	public int deleteNotice(int noNo);
+	public int updateNotice(NoticeVO noticeVO);
+	public int deleteNotice(int noticeNo);
 
 }

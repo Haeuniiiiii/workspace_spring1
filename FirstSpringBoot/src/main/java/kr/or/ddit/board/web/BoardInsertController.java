@@ -58,7 +58,7 @@ public class BoardInsertController {
 			ServiceResult result = boardService.insertBoard(boardVO);	// 게시글 등록
 			
 			if( result.equals(ServiceResult.OK) ) { // 등록 성공
-				goPage = "redirect:/board/detail.do?boNo="+boardVO.getBoNo();
+				goPage = "redirect:/board/detail.do?boNo=" + boardVO.getBoNo();
 			} else { // 등록 실패
 				goPage = "board/form";
 			}

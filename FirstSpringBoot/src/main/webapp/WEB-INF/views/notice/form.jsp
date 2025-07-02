@@ -50,23 +50,23 @@
 			<div class="col-md-12">
 				<div class="">
 					<div class="card-body">
-						<form method="post" action="" id="" class="form-horizontal">
+						<form method="post" action="/notice/insert.do" id="noticeForm" class="form-horizontal">
 							<c:if test="${status eq 'u' }">
-									<input type="hidden" name="noNo" value="${notice.noNo }" />
+									<input type="hidden" name="noticeNo" value="${notice.noticeNo }" />
 							</c:if>
 							<div class="form-group row">
 								<label class="col-sm-2 control-label" >제목</label>
 								<div class="col-sm-10">
-									<input name="noTitle" id="noTitle" type="text" class="form-control" value="${notice.noTitle }" placeholder="제목을 입력해주세요.">
+									<input name="noticeTitle" id="noticeTitle" type="text" class="form-control" value="${notice.noticeTitle }" placeholder="제목을 입력해주세요.">
 								</div>
-								<font color="red" style="font-size: 12px;">${errors.noTitle }</font>
+								<font color="red" style="font-size: 12px;">${errors.noticeTitle }</font>
 							</div>
 							<div class="form-group row mt-4">
 								<label class="col-sm-2 control-label" >내용</label>
 								<div class="col-sm-10">
-									<textarea name="noContent" id="noContent" cols="50" rows="5" class="form-control" placeholder="content">${notice.noContent }</textarea>
+									<textarea name="noticeContent" id="noticeContent" cols="50" rows="5" class="form-control" placeholder="content">${notice.noticeContent }</textarea>
 								</div>
-								<font color="red" style="font-size: 12px;">${errors.noContent }</font>
+								<font color="red" style="font-size: 12px;">${errors.noticeContent }</font>
 							</div>
 							<div class="form-group row mt-4">
 								<div class="col-sm-offset-2 col-sm-12 ">
@@ -90,7 +90,7 @@
 </body>
 <script type="text/javascript">
 $(function() {
-	CKEDITOR.replace("noContent");
+	CKEDITOR.replace("noticeContent");
 	
 	let addBtn = $("#addBtn");			// 등록 버튼
 	let cancelBtn = $("#cancelBtn");	// 취소 버튼
@@ -99,20 +99,20 @@ $(function() {
 	
 	// 등록 버튼 이벤트
 	addBtn.on("click", function(){
-		let title = $("#noTitle").val();		// 제목값
-				let content = CKEDITOR.instances.noContent.getData();	// 내용값
+		let title = $("#noticeTitle").val();		// 제목값
+				let content = CKEDITOR.instances.noticeContent.getData();	// 내용값
 		
 		// 제목이 입력되지 않았다면
 		if(title == null || title == "") {
 			alert("제목을 입력해주세요!");
-			$("#noTitle").focus();
+			$("#noticeTitle").focus();
 			return false;
 		}
 		
 		// 내용이 입력되지 않았다면
 		if(content == null || content == "") {
 			alert("내용을 입력해주세요!");
-			$("#noContent").focus();
+			$("#noticeContent").focus();
 			return false;
 		}
 		
@@ -126,7 +126,7 @@ $(function() {
 	
 	// 취소 버튼 이벤트
 	cancelBtn.on("click", function(){
-		location.href = "/notice/detail.do?noNo=${notice.noNo}";
+		location.href = "/notice/detail.do?noticeNo=${notice.noticeNo}";
 	});
 	
 	// 목록 버튼 이벤트

@@ -8,16 +8,16 @@ import kr.or.ddit.vo.PaginationInfoVO;
 
 public interface INoticeService {
 
-	public ServiceResult insertNotice(NoticeVO NoticeVO);
+	public ServiceResult insertNotice(NoticeVO noticeVO);
 
-	public NoticeVO selectNotice(int noNo);
+	public NoticeVO selectNotice(int noticeNo);
 
 	public int selectNoticeCount(PaginationInfoVO<NoticeVO> pagingVO);
 
 	public List<NoticeVO> selectNoticeList(PaginationInfoVO<NoticeVO> pagingVO);
 
-	public ServiceResult updateNotice(NoticeVO NoticeVO);
+	public ServiceResult updateNotice(NoticeVO noticeVO);
 
-	public ServiceResult deleteNotice(int noNo);
+	public ServiceResult deleteNotice(int noticeNo);
 
 }

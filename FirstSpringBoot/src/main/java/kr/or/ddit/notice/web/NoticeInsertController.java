@@ -38,13 +38,13 @@ public class NoticeInsertController {
 		Map<String, String> errors = new HashMap<>();
 		
 		// 전달받은 제목 데이터가 잘못됐을 때 (기본 유효성 검사를 진행 시, 누락되었을 때)
-		if(StringUtils.isBlank(noticeVO.getNoTitle())) {
-			errors.put("noTitle", "제목을 입력해주세요!");
+		if(StringUtils.isBlank(noticeVO.getNoticeTitle())) {
+			errors.put("noticeTitle", "제목을 입력해주세요!");
 		}
 		
 		// 전달받은 내용 데이터가 잘못됐을 때 (기본 유효성 검사를 진행 시, 누락되었을 때)
-		if(StringUtils.isBlank(noticeVO.getNoContent())) {
-			errors.put("noContent", "내용을 입력해주세요!");
+		if(StringUtils.isBlank(noticeVO.getNoticeContent())) {
+			errors.put("noticeContent", "내용을 입력해주세요!");
 		}
 		
 		// 전달이 잘 되었을 때, 유효성검사 모두 통과했을 때 이쪽을 거쳐가기
@@ -54,11 +54,11 @@ public class NoticeInsertController {
 			goPage = "notice/form"; // 포워딩 진행
 		} else {	// 정상적인 데이터
 			// 로그인 처리가 되지 않았으므로 아이디 임의로 a001 작성
-			noticeVO.setNoWriter("a001");
+			noticeVO.setNoticeWriter("a001");
 			ServiceResult result = noticeService.insertNotice(noticeVO);	// 게시글 등록
 			
 			if( result.equals(ServiceResult.OK) ) { // 등록 성공
-				goPage = "redirect:/notice/detail.do?noNo=" + noticeVO.getNoNo();
+				goPage = "redirect:/notice/detail.do?noticeNo=" + noticeVO.getNoticeNo();
 			} else { // 등록 실패
 				goPage = "notice/form";
 			}

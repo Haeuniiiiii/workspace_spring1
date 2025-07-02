@@ -1,7 +1,6 @@
 package kr.or.ddit.vo;
 
 import lombok.Data;
-import lombok.Getter;
 
 @Data
 public class FreeVO {
