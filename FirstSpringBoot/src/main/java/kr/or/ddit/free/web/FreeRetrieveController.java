@@ -2,6 +2,7 @@ package kr.or.ddit.free.web;
 
 import java.util.List;
 
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -28,11 +29,20 @@ public class FreeRetrieveController {
 	// 자유게시판 목록 페이지
 	@RequestMapping("/list.do")
 	public String freeList(@RequestParam(name = "page", required = false, defaultValue = "1") int currentPage
-						  ,@RequestParam(required = false, defaultValue = "title") String serachType
+						  ,@RequestParam(required = false, defaultValue = "title") String searchType
 						  ,@RequestParam(required = false) String searchWord
 						  ,Model model) {
 		
 		PaginationInfoVO<FreeVO> pVO = new PaginationInfoVO<>();
+		
+		// 브라우저에서 검색한 검색유형, 검색키워드를 이용하여 검색 처리
+		// 검색 키워드가 있으면 검색을 한거고, 키워드가 없으면 검색을 하지 않음
+		if ( StringUtils.isNoneBlank(searchWord) ) {
+			pVO.setSearchType(searchType);
+			pVO.setSearchWord(searchWord);
+			model.addAttribute("searchType", searchType);
+			model.addAttribute("searchWord", searchWord);
+		}
 		pVO.setCurrentPage(currentPage);
 		
 		// 총 게시글 수 가져오기 

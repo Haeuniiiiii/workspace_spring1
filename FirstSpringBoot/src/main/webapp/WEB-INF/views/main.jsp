@@ -18,6 +18,16 @@
 	background-color: #21252963;
 	opacity: 0.8;
 }
+
+.boardLine:hover {
+	background-color: #21252963;
+	opacity: 0.8;
+}
+
+.freeLine:hover {
+	background-color: #21252963;
+	opacity: 0.8;
+}
 </style>
 <body>
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
@@ -76,13 +86,9 @@
 								</c:when>
 								<c:otherwise>
 									<c:forEach items="${mainBoardList.dataList}" var="board">
-										<tr>
+										<tr class="boardLine" data-boardno="${board.boNo}">
 											<td>${board.boNo}</td>
-											<td>
-												<a href="/board/detail.do?boNo=${board.boNo}">
-													${board.boTitle}
-												</a>
-											</td>
+											<td>${board.boTitle}</td>
 											<td>${board.boDate}</td>
 										</tr>
 									</c:forEach>
@@ -161,14 +167,10 @@
 								</c:when>
 								<c:otherwise>
 									<c:forEach items="${mainFreeList.dataList}" var="free">
-										<tr>
+										<tr class="freeLine" data-freeno="${free.freeNo }">
 											<td>${free.freeNo}</td>
-											<td>
-												<a href="/free/detail.do?freeNo=${free.freeNo}">
-													${free.freeTitle}
-												</a>
-											</td>
-											<td>${free.freeDate}</td>
+											<td>${free.freeTitle }</td>
+											<td>${free.freeDate }</td>
 										</tr>
 									</c:forEach>
 								</c:otherwise>
@@ -188,13 +190,30 @@
 $(function() {
 // 새롭게 적용해본 방법
 	let noticeLine = $(".noticeLine");
+	let boardLine = $(".boardLine");
+	let freeLine = $(".freeLine");
+
 	
 	noticeLine.on("click", function(){
 		let ck = $(this).data("noticeno");
 // 		alert($(this).data("noticeno"));
 // 		console.log(ck);
-		location.href="/notice/detail.do?noticeNo="+ck
+		location.href="/notice/detail.do?noticeNo="+ck;
 	}); 
+	
+	
+	boardLine.on("click", function() {
+		let ck = $(this).data("boardno");
+// 		alert("체킹" + ck)
+		location.href="/board/detail.do?boNo="+ck;
+	});
+	
+	
+	freeLine.on("click", function() {
+		let ck = $(this).data("freeno");
+// 		alert("체킹" + ck)
+		location.href="/free/detail.do?freeNo="+ck;
+	});
 
 });
 </script>

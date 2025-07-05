@@ -94,7 +94,7 @@
 												<tr>
 													<td>${board.boNo }</td>											
 													<td>
-														<a href="/board/detail.do?boNo=${board.boNo }">>
+														<a href="/board/detail.do?boNo=${board.boNo }">
 															${board.boTitle }
 														</a>
 													</td>											
