@@ -9,9 +9,11 @@
 			</a>
 			<div class="collapse" id="tables">
 				<ul class="nav flex-column sub-menu">
-					<li class="nav-item"><a class="nav-link" href="">Basic Board</a></li>
-					<li class="nav-item"><a class="nav-link" href="">Free Board</a></li>
-					<li class="nav-item"><a class="nav-link" href="">Notice Board</a></li>
+					<li class="nav-item"><a class="nav-link" href="/board/list.do">Board</a></li>
+					<li class="nav-item"><a class="nav-link" href="/">Free</a></li>
+					<li class="nav-item"><a class="nav-link" href="/">Notice</a></li>
+					<li class="nav-item"><a class="nav-link" href="/">Test</a></li>
+					<li class="nav-item"><a class="nav-link" href="/login">Login</a></li>
 				</ul>
 			</div>
 		</li>

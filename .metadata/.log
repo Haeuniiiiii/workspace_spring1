@@ -5312,3 +5312,6 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.eclipse.lsp4e 1 0 2025-07-05 14:24:05.925
 !MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.335.0 initialized
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-05 16:03:37.487
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/A_TeachingMaterial/100JSP_SPRING/02.Spring(STS)/workspace_spring1/BokhangProject/src/main/java/kr/or/ddit/controller/member/LoginController.java
