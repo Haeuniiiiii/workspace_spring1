@@ -10141,3 +10141,7 @@
 2025-07-08 13:50:27,492 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-07-08 13:50:27,507 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1447 resources from src\main\resources to target\classes
 2025-07-08 13:50:27,562 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\BokhangProject\src\test\resources
+2025-07-09 13:47:54,042 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-07-09 21:12:16,355 [Worker-103: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-09 21:12:16,372 [Worker-103: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 391 resources from src\main\resources to target\classes
+2025-07-09 21:12:16,471 [Worker-103: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\A_TeachingMaterial\100JSP_SPRING\02.Spring(STS)\workspace_spring1\FirstSpringBoot\src\test\resources

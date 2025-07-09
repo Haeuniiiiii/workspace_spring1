@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- Root Context: 전체 웹 컴포넌트에서 공유되는 리소스를 정의 -->
+	
+	<!-- 데이터베이스 연결을 위한 DataSource 설정 -->
+	<bean id="dataSource"
+	      class="org.apache.commons.dbcp2.BasicDataSource" 
+		  destroy-method="close">
+		  
+		  <!-- JDBC 드라이버 클래스 지정 (Oracle 사용) -->
+		  <property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"/>
+		  
+		  <!-- DB 접속 URL -->
+		  <property name="url" value="jdbc:oracle:thin:@127.0.0.1:1521:xe"/>
+		  
+		  <!-- DB 사용자명 -->
+		  <property name="username" value="C##HONG"/>
+		  
+		  <!-- DB 비밀번호 -->
+		  <property name="password" value="java"/>
+	</bean>
+	
+	<!-- MyBatis의 SqlSessionFactory 설정 -->
+	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<!-- 앞서 정의한 DataSource를 주입 -->
+	 	<property name="dataSource" ref="dataSource"/>
+		
+		<!-- 매퍼 XML 파일 경로 지정 (SQL이 정의된 파일들) -->
+	 	<property name="mapperLocations" value="classpath:/sqlmap/**/*_SQL.xml"/>
+		<!-- resources 파일로 들어가서 만들어야함 
+	 	src/
+		  main/
+		    java/
+		      com/example/Hello.java
+		    resources/
+		      sqlmap/
+		        user_SQL.xml
+		Maven은 빌드시 user_SQL.xml을 target/classes/sqlmap/user_SQL.xml로 복사합니다.
+		
+		그리고 이 경로는 classpath에 자동 포함되기 때문에
+		classpath:/sqlmap/**/*_SQL.xml 으로 읽을 수 있는 것이죠!
+		
+		🚫 왜 src/main/java에 넣으면 안 되나요?
+		src/main/java는 오직 Java 소스 코드만 포함해야 합니다.
+		
+		여기에 XML 파일을 넣으면:
+		
+		IDE에서 오류나 경고가 날 수 있음
+		
+		빌드시 정상적으로 classpath에 포함되지 않을 수 있음
+		
+		구조적으로 혼란을 초래함 (표준 관례 위반)
+	 	-->
+		
+		<!-- MyBatis 설정 파일 위치 지정 (alias 등 설정 포함) -->
+	 	<property name="configLocation" value="/WEB-INF/mybatisAlias/mybatisAlias.xml"/>
+	</bean>
+	
+	<!-- SqlSession을 간편하게 사용하기 위한 Template 설정 -->
+	<bean id="sqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate">
+		<!-- 생성자 인자로 SqlSessionFactory를 주입 -->
+		<constructor-arg name="sqlSessionFactory" index="0" ref="sqlSessionFactory"/>
+	</bean>	
+		
+	<!-- Mapper 인터페이스를 자동으로 스캔하고 구현체를 생성 -->
+	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+		<!-- Mapper 인터페이스가 위치한 base 패키지 지정 -->
+		<property name="basePackage" value="kr.or.ddit.mapper"/>
+	</bean>
+	
+</beans>
